@@ -1,4 +1,6 @@
 import pandas as pd
+import os
+import pickle
 from datetime import date
 from busqueda_de_datos.obtencion_data_historica_dos_equipos import obtencion_data_historica_dos_equipos
 from acomodo_de_datos.limpieza_data_historica_dos_equipos import limpieza_data_historica_dos_equipos
@@ -9,8 +11,9 @@ from analisis_de_datos.obtencion_porcentajes_visita import lanzar_puntuación_ge
 hoy = date.today()
 
 # Equipos a analizar
-casa = 'Correcaminos'
-visita= 'Oaxaca'
+#casa = 'Mazatlán FC'
+#visita= 'Necaxa'
+
 
 def resultados(casa, visita):
 
@@ -37,13 +40,29 @@ def resultados(casa, visita):
 
     # Guardamos los dataframe de los analisis
     # Crear un objeto ExcelWriter
-    nombre_hoja = f'{casa} vs {visita} - {date.today()}'
-    if len(nombre_hoja) > 30:
-        nombre_hoja = f'{casa[:10]} vs {visita[:10]}'
-    with pd.ExcelWriter('Analisis.xlsx') as writer:
-        # Guardamos el primer DataFrame Casa
-        df_analisis_casa.to_excel(writer, sheet_name=nombre_hoja, index=False, startrow=0,)
-        # Guardamos el segundo DataFrame Visita
-        df_analisis_visita.to_excel(writer, sheet_name=nombre_hoja, index=False, startrow=len(df_analisis_casa) + 2)
+    nombre_hoja = f'{casa[:3]} vs {visita[:3]} - {date.today()}'
+    nombre_archivo = 'Analisis2.xlsx'
 
-resultados(casa, visita)
+    if os.path.exists(nombre_archivo):
+        with pd.ExcelWriter(nombre_archivo, mode='a', if_sheet_exists='overlay', engine='openpyxl') as writer:
+            # Guardamos el primer DataFrame Casa
+            df_analisis_casa.to_excel(writer, sheet_name=nombre_hoja, index=False, startrow=0,)
+            # Guardamos el segundo DataFrame Visita
+            df_analisis_visita.to_excel(writer, sheet_name=nombre_hoja, index=False, startrow=len(df_analisis_casa) + 2)
+    else:
+        with pd.ExcelWriter(nombre_archivo) as writer:
+            # Guardamos el primer DataFrame Casa
+            df_analisis_casa.to_excel(writer, sheet_name=nombre_hoja, index=False, startrow=0,)
+            # Guardamos el segundo DataFrame Visita
+            df_analisis_visita.to_excel(writer, sheet_name=nombre_hoja, index=False, startrow=len(df_analisis_casa) + 2)
+
+def abrir_dict():
+    #Abrimos diccionarios y los asignamos a un dataframe
+    with open('dict_versus', 'rb') as file:
+        df_versus = pickle.load(file)
+    return df_versus
+
+df_versus = abrir_dict()
+
+for index, row in df_versus.iterrows():
+    resultados(row['Casa'], row['Visita'])

@@ -19,7 +19,7 @@ def obtencion_data_historica_dos_equipos(equipo_home, equipo_away):
             if resultado is not None:
                 df_equipos.append(resultado)
     
-    driver_quit()
+    #driver_quit()
 
     df_equipos = pd.concat(df_equipos, ignore_index=True)
     df_equipos.to_csv('data_historica_versus.csv', index=False)
