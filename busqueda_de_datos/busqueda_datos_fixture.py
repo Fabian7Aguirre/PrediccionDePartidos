@@ -26,7 +26,7 @@ def obtener_datos_LMX():
         Realiza la busqueda de un equipo en la pagina de ESPN y navega hasta la sección de resultados
     '''
     # Abrimos pagina
-    driver.get('https://www.espn.com.mx/futbol/calendario/_/liga/mex.1')
+    driver.get('https://www.espn.com.mx/futbol/calendario/_/liga/uefa.champions')
     #xPath que usaremos para recabar la información fecha, home, resultado y away de año propuesto, una vez se haya cargado
     matches = WebDriverWait(driver, 20).until(EC.presence_of_all_elements_located((By.XPATH, '//tr[@class="Table__TR Table__TR--sm Table__even"]')))
     equipo_casa, equipo_visita = [], []
@@ -39,7 +39,7 @@ def obtener_datos_LMX():
     return pd.DataFrame({'Casa': equipo_casa,'Visita': equipo_visita})
 
 def guardar_dict():
-    with open('dict_versus', 'wb') as output:
+    with open('dict_versus_UEFA', 'wb') as output:
         pickle.dump(obtener_datos_LMX(), output)
 
 def driver_quit():

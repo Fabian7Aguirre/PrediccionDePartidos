@@ -1,104 +1,274 @@
 Año,Fecha,Home,Resultado,Away
-2024,"Sáb., 14 de Sep.",Santos,0 - 2,Monterrey
-2024,"Dom., 1 de Sep.",Santos,3 - 2,Necaxa
-2024,"Sáb., 24 de Ago.",León,1 - 1,Santos
-2024,"Dom., 18 de Ago.",Tijuana,3 - 1,Santos
-2024,"Vie., 9 de Ago.",FC Cincinnati,1 - 1,Santos
-2024,"Dom., 4 de Ago.",Atlanta United FC,0 - 0,Santos
-2024,"Mié., 31 de Jul.",Santos,0 - 3,D.C. United
-2024,"Sáb., 20 de Jul.",Santos,0 - 3,Tigres UANL
-2024,"Mar., 16 de Jul.",Atlas,1 - 0,Santos
-2024,"Sáb., 13 de Jul.",Santos,1 - 1,Pumas UNAM
-2024,"Vie., 5 de Jul.",Puebla,1 - 0,Santos
-2023,"Dom., 28 de Abr.",Santos,0 - 3,Atlético de San Luis
-2023,"Sáb., 20 de Abr.",Santos,0 - 2,Pachuca
-2023,"Vie., 12 de Abr.",Necaxa,2 - 0,Santos
-2023,"Sáb., 6 de Abr.",Santos,1 - 1,América
-2023,"Dom., 31 de Mar.",FC Juarez,2 - 1,Santos
-2023,"Vie., 15 de Mar.",Tijuana,2 - 2,Santos
-2023,"Sáb., 9 de Mar.",Santos,3 - 0,Cruz Azul
-2023,"Vie., 1 de Mar.",Querétaro,0 - 1,Santos
-2023,"Dom., 25 de Feb.",Santos,1 - 0,Mazatlán FC
-2023,"Mié., 21 de Feb.",Toluca,1 - 0,Santos
-2023,"Dom., 18 de Feb.",Pumas UNAM,3 - 0,Santos
-2023,"Sáb., 10 de Feb.",Santos,0 - 3,Tigres UANL
-2023,"Dom., 4 de Feb.",Atlas,3 - 0,Santos
-2023,"Mar., 30 de Ene.",Santos,3 - 0,Puebla
-2023,"Sáb., 27 de Ene.",León,3 - 2,Santos
-2023,"Dom., 21 de Ene.",Santos,0 - 2,Monterrey
-2023,"Sáb., 13 de Ene.",Guadalajara,1 - 1,Santos
-2023,"Dom., 26 de Nov.",León,3 - 2,Santos
-2023,"Jue., 23 de Nov.",Santos,2 - 1,Mazatlán FC
-2023,"Sáb., 11 de Nov.",Atlético de San Luis,0 - 2,Santos
-2023,"Mié., 8 de Nov.",Monterrey,3 - 0,Santos
-2023,"Dom., 5 de Nov.",Santos,3 - 1,Toluca
-2023,"Mié., 1 de Nov.",Mazatlán FC,3 - 1,Santos
-2023,"Dom., 29 de Oct.",Santos,5 - 1,FC Juarez
-2023,"Sáb., 21 de Oct.",América,4 - 3,Santos
-2023,"Dom., 8 de Oct.",Santos,0 - 2,León
-2023,"Mié., 4 de Oct.",Santos,2 - 1,Tijuana
-2023,"Dom., 24 de Sep.",Santos,2 - 5,Necaxa
-2023,"Lun., 18 de Sep.",Pachuca,3 - 2,Santos
-2023,"Sáb., 2 de Sep.",Santos,2 - 1,Pumas UNAM
-2023,"Mié., 30 de Ago.",Tigres UANL,3 - 2,Santos
-2023,"Sáb., 26 de Ago.",Santos,2 - 1,Guadalajara
-2023,"Dom., 20 de Ago.",Cruz Azul,2 - 2,Santos
-2023,"Sáb., 29 de Jul.",Santos,2 - 3,Orlando City SC
-2023,"Mar., 25 de Jul.",Santos,2 - 2,Houston Dynamo FC
-2023,"Jue., 13 de Jul.",Santos,0 - 0,Atlas
-2023,"Vie., 7 de Jul.",Puebla,2 - 3,Santos
-2023,"Dom., 2 de Jul.",Santos,0 - 2,Querétaro
-2024,"Sáb., 14 de Sep.",Toluca,4 - 0,Tijuana
-2024,"Sáb., 31 de Ago.",Monterrey,1 - 2,Toluca
-2024,"Dom., 25 de Ago.",Toluca,2 - 1,Atlético de San Luis
-2024,"Mar., 13 de Ago.",Toluca,1 - 2,Colorado Rapids
-2024,"Vie., 9 de Ago.",Toluca,2 - 2,Houston Dynamo FC
-2024,"Lun., 5 de Ago.",Toluca,2 - 1,Sporting Kansas City
-2024,"Jue., 1 de Ago.",Toluca,3 - 1,Chicago Fire FC
-2024,"Sáb., 20 de Jul.",Cruz Azul,1 - 1,Toluca
-2024,"Mié., 17 de Jul.",Toluca,3 - 0,Mazatlán FC
-2024,"Sáb., 13 de Jul.",Toluca,3 - 2,FC Juarez
-2024,"Sáb., 6 de Jul.",Guadalajara,0 - 0,Toluca
-2024,"Jue., 15 de Feb.",Toluca,2 - 3,Herediano
-2024,"Mié., 7 de Feb.",Herediano,1 - 2,Toluca
-2023,"Sáb., 11 de May.",Toluca,0 - 0,Guadalajara
-2023,"Mié., 8 de May.",Guadalajara,1 - 0,Toluca
-2023,"Sáb., 27 de Abr.",Toluca,0 - 1,Cruz Azul
-2023,"Vie., 19 de Abr.",Atlético de San Luis,1 - 5,Toluca
+2024,"Dom., 29 de Sep.",América,0 - 1,Pumas UNAM
+2024,"Mié., 25 de Sep.",Columbus Crew,1 - 1,América
+2024,"Sáb., 21 de Sep.",Necaxa,1 - 1,América
+2024,"Mar., 17 de Sep.",América,3 - 0,Atlas
+2024,"Sáb., 14 de Sep.",América,1 - 0,Guadalajara
+2024,"Sáb., 31 de Ago.",Cruz Azul,4 - 1,América
+2024,"Sáb., 24 de Ago.",América,0 - 1,Puebla
+2024,"Sáb., 17 de Ago.",América,0 - 0,Colorado Rapids
+2024,"Mar., 13 de Ago.",América,4 - 2,St. Louis CITY SC
+2024,"Vie., 9 de Ago.",América,2 - 1,Atlas
+2024,"Mié., 31 de Jul.",Chelsea,3 - 0,América
+2024,"Sáb., 20 de Jul.",FC Juarez,1 - 2,América
+2024,"Mié., 17 de Jul.",Tigres UANL,1 - 0,América
+2024,"Vie., 12 de Jul.",América,3 - 1,Querétaro
+2024,"Sáb., 6 de Jul.",Atlético de San Luis,2 - 1,América
+2024,"Dom., 30 de Jun.",América,2 - 1,Tigres UANL
+2024,"Mar., 30 de Abr.",Pachuca,2 - 1,América
+2024,"Mar., 23 de Abr.",América,1 - 1,Pachuca
+2024,"Mar., 9 de Abr.",América,5 - 2,New England Revolution
+2024,"Mar., 2 de Abr.",New England Revolution,0 - 4,América
+2024,"Mié., 13 de Mar.",América,2 - 3,Guadalajara
+2024,"Mié., 6 de Mar.",Guadalajara,0 - 3,América
+2024,"Mié., 14 de Feb.",América,2 - 0,Real Estelí
+2024,"Mar., 6 de Feb.",Real Estelí,2 - 1,América
+2023,"Dom., 26 de May.",América,1 - 0,Cruz Azul
+2023,"Jue., 23 de May.",Cruz Azul,1 - 1,América
+2023,"Sáb., 18 de May.",América,1 - 0,Guadalajara
+2023,"Mié., 15 de May.",Guadalajara,0 - 0,América
+2023,"Sáb., 11 de May.",América,1 - 1,Pachuca
+2023,"Mié., 8 de May.",Pachuca,1 - 1,América
+2023,"Vie., 26 de Abr.",Puebla,1 - 2,América
+2023,"Sáb., 20 de Abr.",Pumas UNAM,2 - 1,América
 2023,"Sáb., 13 de Abr.",América,5 - 1,Toluca
-2023,"Dom., 7 de Abr.",Toluca,4 - 1,Atlas
-2023,"Sáb., 30 de Mar.",Pachuca,2 - 3,Toluca
-2023,"Dom., 17 de Mar.",Toluca,3 - 0,Pumas UNAM
-2023,"Vie., 8 de Mar.",FC Juarez,1 - 1,Toluca
-2023,"Sáb., 2 de Mar.",Toluca,2 - 1,Tigres UANL
-2023,"Dom., 25 de Feb.",Toluca,2 - 0,Tijuana
-2023,"Mié., 21 de Feb.",Toluca,1 - 0,Santos
-2023,"Dom., 18 de Feb.",Monterrey,0 - 0,Toluca
-2023,"Sáb., 10 de Feb.",Necaxa,3 - 3,Toluca
-2023,"Sáb., 3 de Feb.",Toluca,4 - 1,León
-2023,"Mar., 30 de Ene.",Guadalajara,3 - 2,Toluca
-2023,"Vie., 26 de Ene.",Puebla,1 - 1,Toluca
-2023,"Sáb., 20 de Ene.",Toluca,4 - 1,Mazatlán FC
-2023,"Vie., 12 de Ene.",Querétaro,2 - 2,Toluca
-2023,"Vie., 10 de Nov.",Mazatlán FC,1 - 0,Toluca
-2023,"Dom., 5 de Nov.",Santos,3 - 1,Toluca
-2023,"Mar., 31 de Oct.",Toluca,0 - 1,Puebla
-2023,"Dom., 29 de Oct.",Toluca,3 - 1,Atlético de San Luis
-2023,"Sáb., 21 de Oct.",León,1 - 0,Toluca
-2023,"Dom., 8 de Oct.",Toluca,3 - 1,Querétaro
-2023,"Mié., 4 de Oct.",Tigres UANL,2 - 2,Toluca
-2023,"Dom., 1 de Oct.",Toluca,1 - 1,Guadalajara
+2023,"Sáb., 6 de Abr.",Santos,1 - 1,América
+2023,"Vie., 29 de Mar.",América,2 - 1,Atlético de San Luis
+2023,"Sáb., 16 de Mar.",Guadalajara,0 - 0,América
+2023,"Sáb., 9 de Mar.",América,2 - 0,Tigres UANL
+2023,"Sáb., 2 de Mar.",Atlas,1 - 5,América
+2023,"Sáb., 24 de Feb.",América,1 - 0,Cruz Azul
+2023,"Mié., 21 de Feb.",América,2 - 2,Mazatlán FC
+2023,"Sáb., 17 de Feb.",Pachuca,2 - 1,América
+2023,"Sáb., 10 de Feb.",León,0 - 1,América
+2023,"Sáb., 3 de Feb.",América,1 - 1,Monterrey
+2023,"Sáb., 27 de Ene.",Necaxa,0 - 0,América
+2023,"Mié., 24 de Ene.",FC Juarez,0 - 2,América
+2023,"Sáb., 20 de Ene.",América,2 - 0,Querétaro
+2023,"Sáb., 13 de Ene.",Tijuana,0 - 2,América
+2023,"Jue., 21 de Dic.",Barcelona,2 - 3,América
+2023,"Dom., 17 de Dic.",América,3 - 0,Tigres UANL
+2023,"Jue., 14 de Dic.",Tigres UANL,1 - 1,América
+2023,"Sáb., 9 de Dic.",América,0 - 2,Atlético de San Luis
+2023,"Mié., 6 de Dic.",Atlético de San Luis,0 - 5,América
+2023,"Sáb., 2 de Dic.",América,2 - 0,León
+2023,"Mié., 29 de Nov.",León,2 - 2,América
+2023,"Sáb., 11 de Nov.",Tigres UANL,0 - 0,América
+2023,"Sáb., 4 de Nov.",América,3 - 0,Tijuana
+2023,"Mié., 1 de Nov.",Atlético de San Luis,0 - 1,América
+2023,"Sáb., 28 de Oct.",Monterrey,0 - 3,América
+2023,"Sáb., 21 de Oct.",América,4 - 3,Santos
+2023,"Vie., 6 de Oct.",Mazatlán FC,1 - 2,América
+2023,"Mar., 3 de Oct.",América,4 - 0,Pachuca
+2023,"Sáb., 30 de Sep.",América,1 - 0,Pumas UNAM
 2023,"Dom., 24 de Sep.",Toluca,1 - 1,América
-2023,"Vie., 15 de Sep.",Tijuana,2 - 1,Toluca
-2023,"Dom., 3 de Sep.",Toluca,5 - 0,Pachuca
+2023,"Mié., 20 de Sep.",Querétaro,1 - 2,América
+2023,"Sáb., 16 de Sep.",América,4 - 0,Guadalajara
+2023,"Sáb., 2 de Sep.",Cruz Azul,2 - 3,América
+2023,"Sáb., 26 de Ago.",América,1 - 1,León
+2023,"Mié., 23 de Ago.",América,3 - 2,Necaxa
+2023,"Dom., 20 de Ago.",América,1 - 1,Atlas
+2023,"Mar., 8 de Ago.",América,2 - 2,Nashville SC
+2023,"Vie., 4 de Ago.",Chicago Fire FC,0 - 1,América
+2023,"Lun., 31 de Jul.",América,1 - 4,Columbus Crew
+2023,"Jue., 27 de Jul.",América,4 - 0,St. Louis CITY SC
+2023,"Sáb., 15 de Jul.",América,3 - 0,Puebla
+2023,"Vie., 30 de Jun.",América,1 - 2,FC Juarez
+2022,"Dom., 21 de May.",América,1 - 3,Guadalajara
+2022,"Jue., 18 de May.",Guadalajara,0 - 1,América
+2022,"Sáb., 13 de May.",América,1 - 2,Atlético de San Luis
+2022,"Mié., 10 de May.",Atlético de San Luis,1 - 3,América
+2022,"Vie., 28 de Abr.",FC Juarez,0 - 1,América
+2022,"Sáb., 22 de Abr.",América,1 - 1,Pumas UNAM
+2022,"Sáb., 15 de Abr.",Cruz Azul,1 - 3,América
+2022,"Sáb., 8 de Abr.",América,2 - 1,Monterrey
+2022,"Sáb., 1 de Abr.",América,2 - 2,León
+2022,"Sáb., 18 de Mar.",Guadalajara,2 - 4,América
+2022,"Sáb., 11 de Mar.",Tigres UANL,0 - 2,América
+2022,"Sáb., 4 de Mar.",América,0 - 3,Pachuca
+2022,"Sáb., 25 de Feb.",Atlas,2 - 2,América
+2022,"Dom., 19 de Feb.",América,2 - 1,Tijuana
+2022,"Mar., 14 de Feb.",Atlético de San Luis,1 - 3,América
+2022,"Sáb., 11 de Feb.",América,2 - 1,Necaxa
+2022,"Sáb., 4 de Feb.",Santos,2 - 2,América
+2022,"Sáb., 28 de Ene.",América,6 - 0,Mazatlán FC
+2022,"Sáb., 21 de Ene.",América,2 - 2,Puebla
+2022,"Sáb., 14 de Ene.",Toluca,2 - 2,América
+2022,"Sáb., 7 de Ene.",América,0 - 0,Querétaro
+2022,"Sáb., 22 de Oct.",América,1 - 1,Toluca
+2022,"Mié., 19 de Oct.",Toluca,2 - 1,América
+2022,"Sáb., 15 de Oct.",América,5 - 1,Puebla
+2022,"Mié., 12 de Oct.",Puebla,1 - 6,América
+2022,"Vie., 30 de Sep.",Puebla,1 - 2,América
+2022,"Mié., 21 de Sep.",Nashville SC,3 - 3,América
+2022,"Sáb., 17 de Sep.",América,2 - 1,Guadalajara
+2022,"Mié., 14 de Sep.",América,3 - 3,Santos
+2022,"Sáb., 10 de Sep.",Necaxa,1 - 2,América
+2022,"Mar., 6 de Sep.",América,3 - 0,Atlético de San Luis
+2022,"Sáb., 3 de Sep.",América,2 - 1,Tigres UANL
+2022,"Vie., 26 de Ago.",Mazatlán FC,1 - 3,América
+2022,"Mar., 23 de Ago.",Querétaro,0 - 1,América
+2022,"Sáb., 20 de Ago.",América,7 - 0,Cruz Azul
+2022,"Mié., 17 de Ago.",Pachuca,0 - 3,América
+2022,"Sáb., 13 de Ago.",Pumas UNAM,0 - 3,América
+2022,"Dom., 7 de Ago.",América,2 - 1,FC Juarez
+2022,"Mié., 3 de Ago.",LAFC,0 - 0,América
+2022,"Dom., 31 de Jul.",León,3 - 2,América
+2022,"Mar., 26 de Jul.",Real Madrid,2 - 2,América
+2022,"Sáb., 23 de Jul.",Tijuana,2 - 0,América
+2022,"Mié., 20 de Jul.",Manchester City,2 - 1,América
+2022,"Sáb., 16 de Jul.",Chelsea,2 - 1,América
+2022,"Mié., 13 de Jul.",América,1 - 0,Toluca
+2022,"Sáb., 9 de Jul.",Monterrey,3 - 2,América
+2022,"Sáb., 2 de Jul.",América,0 - 0,Atlas
+2022,"Dom., 22 de May.",Pachuca,3 - 0,América
+2022,"Jue., 19 de May.",América,1 - 1,Pachuca
+2022,"Sáb., 14 de May.",América,3 - 2,Puebla
+2022,"Mié., 11 de May.",Puebla,1 - 1,América
+2022,"Sáb., 30 de Abr.",América,0 - 0,Cruz Azul
+2022,"Sáb., 23 de Abr.",Tigres UANL,0 - 2,América
+2022,"Mié., 20 de Abr.",América,2 - 0,León
+2022,"Vie., 15 de Abr.",Tijuana,1 - 3,América
+2022,"Sáb., 9 de Abr.",América,3 - 0,FC Juarez
+2022,"Sáb., 2 de Abr.",Necaxa,0 - 1,América
+2022,"Dom., 20 de Mar.",América,3 - 0,Toluca
+2022,"Sáb., 12 de Mar.",Guadalajara,0 - 0,América
+2022,"Sáb., 5 de Mar.",Monterrey,2 - 1,América
+2022,"Mar., 1 de Mar.",América,1 - 1,Querétaro
+2022,"Sáb., 26 de Feb.",Pumas UNAM,0 - 0,América
+2022,"Dom., 20 de Feb.",América,1 - 3,Pachuca
+2022,"Mié., 16 de Feb.",Mazatlán FC,2 - 1,América
+2022,"Sáb., 12 de Feb.",Santos,2 - 3,América
+2022,"Sáb., 5 de Feb.",América,2 - 3,Atlético de San Luis
+2022,"Sáb., 22 de Ene.",América,0 - 2,Atlas
+2022,"Vie., 7 de Ene.",Puebla,1 - 1,América
+2024,"Sáb., 28 de Sep.",Guadalajara,1 - 1,Monterrey
+2024,"Sáb., 21 de Sep.",Monterrey,0 - 0,Mazatlán FC
+2024,"Mié., 18 de Sep.",Monterrey,3 - 2,FC Juarez
+2024,"Sáb., 14 de Sep.",Santos,0 - 2,Monterrey
+2024,"Sáb., 31 de Ago.",Monterrey,1 - 2,Toluca
+2024,"Vie., 23 de Ago.",Tijuana,2 - 2,Monterrey
+2024,"Vie., 16 de Ago.",Puebla,1 - 2,Monterrey
+2024,"Sáb., 3 de Ago.",Monterrey,1 - 1,Pumas UNAM
+2024,"Mar., 30 de Jul.",Monterrey,0 - 2,Austin FC
+2024,"Sáb., 20 de Jul.",Monterrey,2 - 1,Querétaro
+2024,"Mié., 17 de Jul.",Necaxa,0 - 1,Monterrey
+2024,"Sáb., 13 de Jul.",Monterrey,0 - 4,Cruz Azul
+2024,"Dom., 7 de Jul.",Pachuca,0 - 1,Monterrey
+2024,"Mié., 1 de May.",Monterrey,1 - 3,Columbus Crew
+2024,"Mié., 24 de Abr.",Columbus Crew,2 - 1,Monterrey
+2024,"Mié., 10 de Abr.",Monterrey,3 - 1,Inter Miami CF
+2024,"Mié., 3 de Abr.",Inter Miami CF,1 - 2,Monterrey
+2024,"Jue., 14 de Mar.",Monterrey,2 - 1,FC Cincinnati
+2024,"Jue., 7 de Mar.",FC Cincinnati,0 - 1,Monterrey
+2024,"Jue., 15 de Feb.",Monterrey,3 - 0,Comunicaciones
+2024,"Mar., 6 de Feb.",Comunicaciones,1 - 4,Monterrey
+2024,"Mié., 17 de Ene.",Monterrey,1 - 1,River Plate
+2023,"Dom., 19 de May.",Cruz Azul,1 - 2,Monterrey
+2023,"Jue., 16 de May.",Monterrey,0 - 1,Cruz Azul
+2023,"Dom., 12 de May.",Monterrey,1 - 1,Tigres UANL
+2023,"Jue., 9 de May.",Tigres UANL,1 - 2,Monterrey
+2023,"Dom., 28 de Abr.",Necaxa,2 - 5,Monterrey
+2023,"Sáb., 20 de Abr.",León,2 - 0,Monterrey
+2023,"Sáb., 13 de Abr.",Monterrey,3 - 3,Tigres UANL
+2023,"Sáb., 6 de Abr.",Cruz Azul,2 - 1,Monterrey
+2023,"Sáb., 30 de Mar.",Monterrey,0 - 2,Guadalajara
+2023,"Dom., 17 de Mar.",Atlas,1 - 2,Monterrey
+2023,"Dom., 10 de Mar.",Monterrey,2 - 1,Mazatlán FC
+2023,"Dom., 3 de Mar.",Monterrey,3 - 0,Pumas UNAM
+2023,"Mié., 28 de Feb.",Tijuana,1 - 1,Monterrey
+2023,"Vie., 23 de Feb.",FC Juarez,0 - 3,Monterrey
+2023,"Dom., 18 de Feb.",Monterrey,0 - 0,Toluca
+2023,"Sáb., 10 de Feb.",Monterrey,3 - 2,Pachuca
+2023,"Sáb., 3 de Feb.",América,1 - 1,Monterrey
+2023,"Sáb., 27 de Ene.",Monterrey,3 - 1,Atlético de San Luis
+2023,"Mié., 24 de Ene.",Monterrey,1 - 1,Querétaro
+2023,"Dom., 21 de Ene.",Santos,0 - 2,Monterrey
+2023,"Sáb., 13 de Ene.",Monterrey,2 - 0,Puebla
+2023,"Sáb., 2 de Dic.",Monterrey,1 - 1,Atlético de San Luis
+2023,"Mié., 29 de Nov.",Atlético de San Luis,1 - 0,Monterrey
+2023,"Sáb., 11 de Nov.",Querétaro,0 - 0,Monterrey
+2023,"Mié., 8 de Nov.",Monterrey,3 - 0,Santos
+2023,"Sáb., 4 de Nov.",Pachuca,0 - 2,Monterrey
+2023,"Mar., 31 de Oct.",Monterrey,3 - 0,Necaxa
+2023,"Sáb., 28 de Oct.",Monterrey,0 - 3,América
+2023,"Mié., 25 de Oct.",Monterrey,3 - 1,Tijuana
+2023,"Dom., 22 de Oct.",Pumas UNAM,0 - 1,Monterrey
+2023,"Sáb., 7 de Oct.",Monterrey,3 - 1,FC Juarez
+2023,"Mar., 3 de Oct.",Puebla,1 - 1,Monterrey
+2023,"Sáb., 23 de Sep.",Tigres UANL,3 - 0,Monterrey
+2023,"Sáb., 16 de Sep.",Monterrey,3 - 1,León
+2023,"Dom., 3 de Sep.",Guadalajara,1 - 2,Monterrey
 2023,"Mié., 30 de Ago.",Toluca,1 - 0,Monterrey
-2023,"Sáb., 26 de Ago.",Atlas,0 - 0,Toluca
-2023,"Vie., 18 de Ago.",Pumas UNAM,1 - 1,Toluca
-2023,"Mar., 8 de Ago.",Toluca,2 - 2,Minnesota United FC
-2023,"Vie., 4 de Ago.",Toluca,4 - 1,Sporting Kansas City
-2023,"Lun., 31 de Jul.",Toluca,4 - 1,Colorado Rapids
-2023,"Jue., 27 de Jul.",Nashville SC,3 - 4,Toluca
-2023,"Dom., 16 de Jul.",Toluca,2 - 4,FC Juarez
-2023,"Sáb., 8 de Jul.",Cruz Azul,0 - 2,Toluca
-2023,"Dom., 2 de Jul.",Toluca,0 - 0,Necaxa
-2023,"Mié., 15 de Feb.",Atlanta United FC,3 - 4,Toluca
+2023,"Dom., 27 de Ago.",Monterrey,1 - 2,Cruz Azul
+2023,"Sáb., 19 de Ago.",Philadelphia Union,3 - 0,Monterrey
+2023,"Mar., 15 de Ago.",Monterrey,0 - 2,Nashville SC
+2023,"Vie., 11 de Ago.",LAFC,2 - 3,Monterrey
+2023,"Mar., 8 de Ago.",Tigres UANL,0 - 1,Monterrey
+2023,"Vie., 4 de Ago.",Monterrey,1 - 0,Portland Timbers
+2023,"Dom., 30 de Jul.",Monterrey,4 - 2,Seattle Sounders FC
+2023,"Mié., 26 de Jul.",Monterrey,3 - 0,Real Salt Lake
+2023,"Vie., 14 de Jul.",Mazatlán FC,0 - 3,Monterrey
+2023,"Dom., 9 de Jul.",Monterrey,1 - 0,Atlas
+2023,"Sáb., 1 de Jul.",Atlético de San Luis,1 - 1,Monterrey
+2023,"Mar., 10 de Ene.",River Plate,1 - 0,Monterrey
+2022,"Sáb., 20 de May.",Monterrey,0 - 1,Tigres UANL
+2022,"Mié., 17 de May.",Tigres UANL,1 - 1,Monterrey
+2022,"Sáb., 13 de May.",Monterrey,2 - 0,Santos
+2022,"Mié., 10 de May.",Santos,0 - 0,Monterrey
+2022,"Sáb., 29 de Abr.",Monterrey,4 - 1,Pumas UNAM
+2022,"Vie., 21 de Abr.",Mazatlán FC,0 - 2,Monterrey
+2022,"Dom., 16 de Abr.",Monterrey,1 - 2,Santos
+2022,"Sáb., 8 de Abr.",América,2 - 1,Monterrey
+2022,"Sáb., 1 de Abr.",Monterrey,4 - 0,Tijuana
+2022,"Sáb., 18 de Mar.",Tigres UANL,0 - 1,Monterrey
+2022,"Dom., 12 de Mar.",Pachuca,1 - 2,Monterrey
+2022,"Sáb., 4 de Mar.",Monterrey,3 - 0,FC Juarez
+2022,"Lun., 27 de Feb.",León,1 - 1,Monterrey
+2022,"Sáb., 18 de Feb.",Monterrey,2 - 1,Necaxa
+2022,"Mié., 15 de Feb.",Monterrey,2 - 0,Querétaro
+2022,"Jue., 9 de Feb.",Atlas,0 - 2,Monterrey
+2022,"Dom., 5 de Feb.",Monterrey,2 - 1,Toluca
+2022,"Vie., 27 de Ene.",Puebla,1 - 2,Monterrey
+2022,"Sáb., 21 de Ene.",Monterrey,3 - 1,Atlético de San Luis
+2022,"Sáb., 14 de Ene.",Cruz Azul,2 - 3,Monterrey
+2022,"Sáb., 7 de Ene.",Monterrey,0 - 1,Guadalajara
+2022,"Dom., 23 de Oct.",Monterrey,0 - 1,Pachuca
+2022,"Jue., 20 de Oct.",Pachuca,5 - 2,Monterrey
+2022,"Sáb., 15 de Oct.",Monterrey,3 - 0,Cruz Azul
+2022,"Mié., 12 de Oct.",Cruz Azul,0 - 0,Monterrey
+2022,"Sáb., 1 de Oct.",Monterrey,0 - 0,Pachuca
+2022,"Sáb., 17 de Sep.",Monterrey,2 - 0,Atlas
+2022,"Vie., 9 de Sep.",FC Juarez,0 - 1,Monterrey
+2022,"Mar., 6 de Sep.",Monterrey,3 - 2,Cruz Azul
+2022,"Sáb., 3 de Sep.",Monterrey,0 - 0,Mazatlán FC
+2022,"Dom., 28 de Ago.",Tijuana,0 - 3,Monterrey
+2022,"Mar., 23 de Ago.",Guadalajara,1 - 0,Monterrey
+2022,"Sáb., 20 de Ago.",Monterrey,0 - 0,Tigres UANL
+2022,"Mié., 17 de Ago.",Toluca,1 - 1,Monterrey
+2022,"Vie., 12 de Ago.",Necaxa,1 - 2,Monterrey
+2022,"Sáb., 6 de Ago.",Monterrey,5 - 1,León
+2022,"Dom., 31 de Jul.",Pumas UNAM,1 - 1,Monterrey
+2022,"Mar., 26 de Jul.",Monterrey,1 - 0,Puebla
+2022,"Jue., 21 de Jul.",Querétaro,0 - 3,Monterrey
+2022,"Dom., 17 de Jul.",Atlético de San Luis,0 - 1,Monterrey
+2022,"Sáb., 9 de Jul.",Monterrey,3 - 2,América
+2022,"Dom., 3 de Jul.",Santos,4 - 3,Monterrey
+2022,"Sáb., 7 de May.",Monterrey,2 - 2,Atlético de San Luis
+2022,"Sáb., 30 de Abr.",Monterrey,2 - 0,Tijuana
+2022,"Sáb., 23 de Abr.",Pachuca,3 - 0,Monterrey
+2022,"Mié., 20 de Abr.",Monterrey,0 - 0,Atlas
+2022,"Dom., 17 de Abr.",Pumas UNAM,2 - 0,Monterrey
+2022,"Mié., 13 de Abr.",Guadalajara,1 - 3,Monterrey
+2022,"Sáb., 9 de Abr.",Monterrey,1 - 0,Santos
+2022,"Mié., 6 de Abr.",Toluca,2 - 2,Monterrey
+2022,"Sáb., 19 de Mar.",Tigres UANL,2 - 0,Monterrey
+2022,"Mar., 15 de Mar.",Monterrey,3 - 0,FC Juarez
+2022,"Vie., 11 de Mar.",Monterrey,2 - 1,Mazatlán FC
+2022,"Sáb., 5 de Mar.",Monterrey,2 - 1,América
+2022,"Mar., 1 de Mar.",León,0 - 0,Monterrey
+2022,"Sáb., 26 de Feb.",Monterrey,0 - 2,Atlético de San Luis
+2022,"Vie., 18 de Feb.",Puebla,1 - 0,Monterrey
+2022,"Sáb., 22 de Ene.",Monterrey,2 - 2,Cruz Azul
+2022,"Vie., 14 de Ene.",Necaxa,0 - 4,Monterrey
+2022,"Sáb., 8 de Ene.",Monterrey,0 - 0,Querétaro

@@ -41,7 +41,7 @@ def resultados(casa, visita):
     # Guardamos los dataframe de los analisis
     # Crear un objeto ExcelWriter
     nombre_hoja = f'{casa[:3]} vs {visita[:3]} - {date.today()}'
-    nombre_archivo = 'Analisis2.xlsx'
+    nombre_archivo = 'AnalisisUEFA.xlsx'
 
     if os.path.exists(nombre_archivo):
         with pd.ExcelWriter(nombre_archivo, mode='a', if_sheet_exists='overlay', engine='openpyxl') as writer:
@@ -58,11 +58,13 @@ def resultados(casa, visita):
 
 def abrir_dict():
     #Abrimos diccionarios y los asignamos a un dataframe
-    with open('dict_versus', 'rb') as file:
+    with open('dict_versus_UEFA', 'rb') as file:
         df_versus = pickle.load(file)
     return df_versus
 
 df_versus = abrir_dict()
+df_data_equipos = []
 
 for index, row in df_versus.iterrows():
     resultados(row['Casa'], row['Visita'])
+    
