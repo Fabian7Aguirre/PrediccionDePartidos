@@ -116,7 +116,7 @@ def entrar_a_pag_resultados(driver, equipoo, bandera, *agno):
         except Exception as e:
             print(f"Ocurrió un error inesperado: {e}")
 
-def entrar_a_pag_resultados_2(driver, equipo, *agnos):
+def entrar_a_pag_resultados_2(driver, equipo, agnos=None):
     try:
         df_resultados = []
         # Llamamos al metodo buscar_equipipo y pasamos equipo a buscar
@@ -128,16 +128,15 @@ def entrar_a_pag_resultados_2(driver, equipo, *agnos):
                         nueva_url = cambiar_agno_url(str(agno),url_actual)
                     else:
                         nueva_url = cambiar_ultimo_segmento(str(agno),url_actual)
-                    print(nueva_url)
                     driver.get(nueva_url)
                     # Llamamos al metodo extraer_resultados y los resultados dataframe los asignamos a una variable df_resultados
                     df_resultados.append(extraer_resultados(driver, agno))  
-                    #df_resultados = pd.concat(df_resultados,ignore_index=True)                 
+            df_resultados = pd.concat(df_resultados,ignore_index=True)                 
             print(f'Estas son todas las temporadas a imprimir: {len(agnos)}')
             return df_resultados
         else:
             df_resultados.append(extraer_resultados(driver, datetime.date.today().year))
-            #df_resultados = pd.concat(df_resultados,ignore_index=True) 
+            df_resultados = pd.concat(df_resultados,ignore_index=True) 
             print(f'Estas son todas las temporadas a imprimir: 1')
             return df_resultados
     except WebDriverException as e:

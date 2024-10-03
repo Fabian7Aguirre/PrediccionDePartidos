@@ -10,17 +10,19 @@ from analisis_de_datos.obtencion_porcentajes_visita import lanzar_puntuación_ge
 # Fecha
 hoy = date.today()
 
+agnos = 2024, 2023, 2022
+
 # Equipos a analizar
 #casa = 'Mazatlán FC'
 #visita= 'Necaxa'
 
 
-def resultados(casa, visita):
+def resultados(casa, visita, *agnos):
 
 
     # Consultamos data historica de ambos equipos y obtenemos un dataframe
     # Esta función genera un archivo csv
-    df_equipos = obtencion_data_historica_dos_equipos(casa, visita)
+    df_equipos = obtencion_data_historica_dos_equipos(casa, visita, agnos)
 
     # Limpiamos dataframe y lo guarda en un nuevo csv
     limpieza_data_historica_dos_equipos()
@@ -41,7 +43,7 @@ def resultados(casa, visita):
     # Guardamos los dataframe de los analisis
     # Crear un objeto ExcelWriter
     nombre_hoja = f'{casa[:3]} vs {visita[:3]} - {date.today()}'
-    nombre_archivo = 'AnalisisUEFA.xlsx'
+    nombre_archivo = 'AnalisisPRINCIPAL.xlsx'
 
     if os.path.exists(nombre_archivo):
         with pd.ExcelWriter(nombre_archivo, mode='a', if_sheet_exists='overlay', engine='openpyxl') as writer:
@@ -65,6 +67,8 @@ def abrir_dict():
 df_versus = abrir_dict()
 df_data_equipos = []
 
-for index, row in df_versus.iterrows():
+'''for index, row in df_versus.iterrows():
     resultados(row['Casa'], row['Visita'])
-    
+'''    
+
+resultados('America', 'Monterrey')

@@ -1,5 +1,5 @@
 from obtencion_data_historica_dos_equipos import obtencion_data_historica_dos_equipos
 import pandas as pd
 
-df_equipos = obtencion_data_historica_dos_equipos('America', 'Monterrey', 2024, 2023, 2022)
+df_equipos = obtencion_data_historica_dos_equipos('America', 'Monterrey')
 
