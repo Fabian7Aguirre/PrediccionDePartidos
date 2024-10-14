@@ -13,7 +13,6 @@ def obtencion_data_historica_dos_equipos(equipo_home, equipo_away, agnos=None):
             
             print(f'Procesando equipo Home: {contador + 1}/{len(equipos)}: {equipo}')
             resultado = entrar_a_pag_resultados_2(driver, equipo, agnos)
-            print(f'HOLAAA: {resultado}')
             if resultado is not None:
                 df_equipos.append(resultado)
             else:
