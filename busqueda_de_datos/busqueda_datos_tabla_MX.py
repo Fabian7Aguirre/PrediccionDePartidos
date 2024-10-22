@@ -1,13 +1,9 @@
 from busqueda_datos_espn import inicializar_driver, driver_quit
-from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
-from selenium.common.exceptions import WebDriverException
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
-import datetime
+import pickle
 import re
 
 # Inicializamos driver y lo asignamos a variable
@@ -42,11 +38,12 @@ def extraer_posiciones(driver):
         diferencia.append(match.find_element(By.XPATH, './td[7]').text)
         puntos.append(match.find_element(By.XPATH, './td[8]').text)
     
-    df_resultados = pd.DataFrame({'Equipo': equipo,'# P': partidos, 'P G': partidos_ganados, 'E':empates,'P P': derrotas, 'G F': goles_a_favor, 'G C': goles_en_contra, 'D':diferencia, 'Puntos': puntos})
+    df_resultados = pd.DataFrame({'Equipo': equipo,'# Partidos': partidos, 'Victorias': partidos_ganados, 'Empates':empates,'Derrotas': derrotas, 'G Favor': goles_a_favor, 'G Contra': goles_en_contra, 'Dif':diferencia, 'Puntos': puntos})
 
     return df_resultados
 
-def extraer_ids_365_scores(driver):
+
+
     # Abre pagina de 365 scores
     driver.get('https://www.365scores.com/es-mx/football/league/liga-mx-141/standings')
     # xpath que usaremos para extraer tabla
@@ -72,12 +69,21 @@ def extraer_ids_365_scores(driver):
         diferencia.append(match.find_element(By.XPATH, './td[6]').text)
         puntos.append(match.find_element(By.XPATH, './td[7]').text)
 
-    df_resultados = df_resultados = pd.DataFrame({'':posicion, 'ID':id, 'Equipo': equipo,'# P': partidos, 'P G': partidos_ganados, 'E':empates,'P P': derrotas, 'G F': goles_a_favor, 'G C': goles_en_contra, 'D':diferencia, 'Puntos': puntos})
+    df_tabla = pd.DataFrame({'':posicion, 'ID':id, 'Equipo': equipo,'# P': partidos, 'P G': partidos_ganados, 'E':empates,'P P': derrotas, 'G F': goles_a_favor, 'G C': goles_en_contra, 'D':diferencia, 'Puntos': puntos})
 
-    return df_resultados
+    return df_tabla
+
+def guardar_dict(nombre_dict, df_tabla):
+    try:
+            with open(nombre_dict, 'wb') as output:
+                pickle.dump(df_tabla, output)
+            df_tabla.to_csv(nombre_dict+'.csv', index=False)
+    except FileExistsError:
+        print('El archivo no existe.')
+    except IOError:
+        print("Error de entrada/salida.")
+    except Exception as e:
+        print(f"Se produjo un error inesperado: {e}")
+
 driver = inicializar_driver()
-
-#buscar_posiciones(driver)
-#print(extraer_posiciones(driver))
-print(extraer_ids_365_scores(driver))
-#driver_quit()
+guardar_dict('dict_tabla_LigaMx', extraer_posiciones(driver))
