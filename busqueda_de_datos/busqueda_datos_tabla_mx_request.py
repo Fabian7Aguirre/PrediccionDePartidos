@@ -68,7 +68,7 @@ def convertir_fecha(fecha):
     return fecha
 
 def partidos(data):
-    home_competitor, score_home, away_competitor, score_away, fecha, home_record, away_record = [], [], [], [], [], [], []
+    id_equipo_h, id_equipo_a, home_competitor, score_home, away_competitor, score_away, fecha, home_record, away_record = [], [], [], [], [], [], [], [], []
     events = data['events']
     for event in events:
         fecha_event = convertir_fecha(event['date'])
@@ -79,10 +79,12 @@ def partidos(data):
         score_away.append(event['competitions'][0]['competitors'][1]['score']['value'])
         home_record.append(event['competitions'][0]['competitors'][0]['record'][0]['displayValue'])
         away_record.append(event['competitions'][0]['competitors'][1]['record'][0]['displayValue'])
+        id_equipo_h.append(event['competitions'][0]['competitors'][0]['id'])
+        id_equipo_a.append(event['competitions'][0]['competitors'][1]['id'])
 
-    return pd.DataFrame({'Fecha':fecha, 'H-Record': home_record, 'Home': home_competitor, 
-                         'H-Score': score_home, 'A-Score': score_away, 'Away': away_competitor, 
-                         'A-Record': away_record})
+    return pd.DataFrame({'id_H':id_equipo_h,'id_A': id_equipo_a, 'Fecha':fecha, 'H-Record': home_record, 
+                         'Home': home_competitor, 'H-Score': score_home, 'A-Score': score_away, 
+                         'Away': away_competitor, 'A-Record': away_record})
 
 def guardar_df(nombre_df, df_tabla):
     try:
@@ -114,7 +116,7 @@ def df_todos_partidos_LMX():
 
 
 
-    guardar_df('Historial_2024_LGM.csv', df_todos_los_partidos)
+    guardar_df('Historial_2024_LGM', df_todos_los_partidos)
 
 
 
